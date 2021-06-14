@@ -27,8 +27,8 @@ eleventyNavigation:
         <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" placeholder="Enter your message here"></textarea>
     </div>
     <div class="form-check">
-        <input class="form-check-input mt-2" type="checkbox">
-        <label class="form-check-label mt-2" name="newletter">
+        <input class="form-check-input mt-2" type="checkbox" name="newletter" value="yes">
+        <label class="form-check-label mt-2">
             Click here to receive our amazing newsletter.
         </label>
     </div>
