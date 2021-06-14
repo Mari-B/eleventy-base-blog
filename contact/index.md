@@ -6,29 +6,31 @@ eleventyNavigation:
   key: Get in touch!
   order: 3
 ---
- 
-Get in touch today!
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+
+<div class="container w-75">
+    <form name="contact" method="POST" data-netlify="true">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="name" aria-describedby="Name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <label>Surname</label>
+        <input type="text" class="form-control" name="surname" aria-describedby="Surname" placeholder="Enter your surname">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
 <script>
     //get default border colours (to use on input when validation passes)
     var borderStylePass = document.querySelector('#name').style.border;
