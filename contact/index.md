@@ -28,10 +28,10 @@ eleventyNavigation:
     </div>
     <div class="form-check">
         <input class="form-check-input mt-2" type="checkbox">
-        <label class="form-check-label mt-2" for="defaultCheck1">
+        <label class="form-check-label mt-2" name="newletter">
             Click here to receive our amazing newsletter.
         </label>
-</div>
+    </div>
     <button type="submit" class="btn btn-primary mt-3">Submit</button>
     </form>
 </div>
