@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: blog
 tags: blog
 title: A nice blog post
 date: 2021-06-14T19:17:26.028Z
