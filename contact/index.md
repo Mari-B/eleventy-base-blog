@@ -29,3 +29,37 @@ Get in touch today!
     <button type="submit">Send</button>
   </p>
 </form>
+<script>
+    //get default border colours (to use on input when validation passes)
+    var borderStylePass = document.querySelector('#name').style.border;
+    //set fail border colours (to use on input when validation fails)
+    var borderStyleFail = '1px solid red';
+    //get the form submit button
+    var submit_button = document.querySelector('.form_submit');
+    //attach form event listener
+    submit_button.addEventListener("click", function(event){
+        //get the form "name" elemement
+        var name = document.querySelector('#name');
+        //get the form "email" element
+        var email = document.querySelector('#email');
+        //all validation is assumed to be passed until tested
+        blnValidated = true;
+        //change the border as it the validation passed
+        name.style.border = borderStylePass;
+        //if validation fails change the bln to false and change the input border colour
+        if(!name.value){
+            blnValidated = false;
+            name.style.border = borderStyleFail;
+        }
+        //if validation fails change the bln to false and change the input border colour
+        email.style.border = borderStylePass;
+        if(!email.value){
+            blnValidated = false;
+            email.style.border = borderStyleFail;
+        }
+        //if validation failed do not allow the form to submit the data
+        if(!blnValidated){
+            event.preventDefault();
+        }
+    }, false);
+</script>
