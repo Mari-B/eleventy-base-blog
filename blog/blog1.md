@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: blog
 tags: blog
 title: blog1
 date: 2021-06-14T19:57:18.981Z
