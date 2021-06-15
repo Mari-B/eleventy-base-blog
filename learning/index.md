@@ -5,6 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Learning
   order: 3
+eleventyExcludeFromCollections: true
 ---
 
 Learn something today!

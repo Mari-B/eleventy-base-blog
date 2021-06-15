@@ -1,3 +1,22 @@
+.footer {
+  background-color: #e1e5f2;
+  color: #212529;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text{
+  line-height: 100px;    
+  height: 100px;    
+  width: 100%;
+  text-align: center;
+}
+
 /* Colors */
 :root {
   --lightgray: #e0e0e0;
@@ -20,15 +39,17 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
+  margin-bottom: 100px;
 }
 p:last-child {
   margin-bottom: 0;
 }
-p,
+/* p,
 .tmpl-post li,
 img {
   max-width: 37.5em; /* 600px /16 */
-}
+/* } */
+
 p,
 .tmpl-post li {
   line-height: 1.45;
@@ -45,9 +66,9 @@ main {
 main :first-child {
   margin-top: 0;
 }
-header {
+/* header {
   border-bottom: 1px dashed var(--lightgray);
-}
+} */
 header:after {
   content: "";
   display: table;
@@ -147,6 +168,10 @@ code {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+.navbar {
+  background-color: #bfdbf7;
+  height: 100px;
 }
 
 /* Posts list */
