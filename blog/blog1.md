@@ -1,9 +1,9 @@
 ---
 layout: blog
 tags: blog
-title: blog1
+title: First blog post
 date: 2021-06-14T19:57:18.981Z
-thumbnail: https://images.unsplash.com/photo-1567023535567-4b85ae1fc6c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80
-rating: 4
+thumbnail: /images/uploads/tim-mossholder-we_kv_zb1l0-unsplash.jpg
+rating: 10
 ---
-sun
+This is the first blog post I've created with Netlify CMS.
