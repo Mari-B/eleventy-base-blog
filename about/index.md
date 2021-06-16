@@ -20,7 +20,7 @@ With a background in translation, I am a dynamic professional who took part in t
 </div>
 
 <div class="col">
-<img src="women_laptop.svg" />
+<img src="about/women_laptop.svg" />
 </div>
 
 </div>
