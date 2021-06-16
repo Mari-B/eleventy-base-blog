@@ -20,7 +20,7 @@ With a background in translation, I am a dynamic professional who took part in t
 </div>
 
 <div class="col">
-<img src="woman_laptop.svg" />
+<img src="https://github.com/Mari-B/eleventy-base-blog/_site/about/woman_laptop.svg" />
 </div>
 
 </div>
