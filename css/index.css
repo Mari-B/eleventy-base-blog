@@ -1,3 +1,7 @@
+p {
+  text-align: justify;
+}
+
 .footer {
   background-color: #e1e5f2;
   color: #212529;
@@ -16,6 +20,8 @@
   width: 100%;
   text-align: center;
 }
+
+
 
 /* Colors */
 :root {
@@ -44,11 +50,11 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
-/* p,
-.tmpl-post li,
+
 img {
-  max-width: 37.5em; /* 600px /16 */
-/* } */
+  height: 80%;
+  width: 80%;
+} 
 
 p,
 .tmpl-post li {

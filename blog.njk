@@ -1,11 +1,14 @@
 ---
-layout: layouts/home.njk
+layout: layouts/base.njk
 permalink: /blog/
 eleventyNavigation:
   key: Blog
   order: Latest
 title: Blog list
 ---
+
+<div class="container">
+
 <h1>{{title}}</h1>
 
 {% for blogpost in collections.blog%}
@@ -13,4 +16,6 @@ title: Blog list
     {{blogpost.data.title}} - <a href="{{blogpost.url}}">{{blogpost.url}}</a> - {{blogpost.data.rating }} ⭐️
 </p>
 {%endfor%}
+
+</div>
 

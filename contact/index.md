@@ -1,14 +1,17 @@
 ---
-layout: layouts/post.njk
-title: Get in touch!
-templateClass: tmpl-post
+layout: layouts/base.njk
+templateClass: tmpl-home
 eleventyNavigation:
   key: Get in touch!
   order: 3
 ---
 
 
+
 <div class="container w-75">
+    <h1>
+    Get in touch!
+    </h1>
     <form name="contact" method="POST" data-netlify="true">
     <div class="form-group mt-2">
         <label>Name</label>
@@ -76,3 +79,4 @@ eleventyNavigation:
         }
     }, false);
 </script>
+</div>
