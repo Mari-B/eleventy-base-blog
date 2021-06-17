@@ -1,4 +1,5 @@
-#My Eleventy Blog
+My Eleventy Blog
+======
 
 This is a blog that I've created using the static site generator Eleventy (which uses Nunjucks and md to output html files).
 It's connected to and hosted on Netlify at this address: https://eloquent-brown-727c24.netlify.app/
